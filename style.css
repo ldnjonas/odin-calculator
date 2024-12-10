@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#test{
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    flex-grow: 1;
+
+}
+
+#button-field{
+    display:flex;
+    flex-grow: 3;
+}
+
+#output-field,.number.row{
+    display: flex;
+}
+
+#numbers-side,#operator-side{
+    flex-grow: 1;
+}
+
+.operator-button{
+    background-color: orange;
+}
+
+#output-field{
+    width: 350px;
+    height: auto;
+    background-color: rgb(96, 96, 245);
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+#numbers-side{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+}
+
+#operator-side{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.operator-button{
+    flex-grow: 1;
+}
+
+
+#output-field{
+    display: flex;
+    gap: 20px;
+}
+
+#number-buttons{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+}
+
+#calculation-buttons{
+    display:flex;
+    flex-grow:1;
+    flex:auto;
+}
+
+#calc-left{
+    display: flex; 
+    flex-grow: 1;
+}
+
+#calc-right{
+    display: flex; 
+    flex-grow: 1;
+
+}
+#top-box{
+    display:flex;
+    flex-grow: 3;
+    height:50px;
+}
+
+#middle-box{
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#clear-button{
+    flex-grow: 4;
+}
+
+#delete-button{
+    flex-grow: 1
+}
+
+.number-row{
+    display: flex;
+
+    flex-grow: 1;
+}
+
+.number-button{
+    flex-grow: 1;
+}
+
+#result-button{
+    background-color: rgb(32, 180, 148);
+}
